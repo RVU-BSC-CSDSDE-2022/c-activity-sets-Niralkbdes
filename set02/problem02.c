@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-void input_camel_details(float *radius,float *height,float *lenght)
+void input_camel_details(float *radius,float *height,float *length)
 {
   printf("Enter the radius\n");
   scanf("%f",radius);

@@ -17,7 +17,6 @@ Point input()
   return a;
 }
 
-
 float dist(Point e, Point f)
 {
   float res1,res2;
