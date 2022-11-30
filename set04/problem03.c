@@ -35,7 +35,7 @@ int is_prime(int n)
 void output(int n, int result)
 {
   if (result>2)
-    printf("The number is prime");
+    printf("The number is not prime\n");
   else 
-    printf("The number is not prime");
+    printf("The number is prime\n");
 }
