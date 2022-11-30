@@ -9,7 +9,7 @@ int main()
 {
   int n,fibo;
   n =input(n);
-  fibo= find_fibo(n);
+  fibo = find_fibo(n);
   output(n,fibo);
   return 0;
 }
