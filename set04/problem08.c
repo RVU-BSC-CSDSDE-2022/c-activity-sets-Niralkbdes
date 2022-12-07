@@ -69,6 +69,8 @@ void find_n_distance(int n, Line *l)
    int i;
     for( i=0; i<n; i++)
       {
+        if (i==(n-1))
+          break;
           l[i].distance= find_distance(l[i].p, l[i+1].p);
       }
     l[i].distance=find_distance(l[i].p, l[0].p);
