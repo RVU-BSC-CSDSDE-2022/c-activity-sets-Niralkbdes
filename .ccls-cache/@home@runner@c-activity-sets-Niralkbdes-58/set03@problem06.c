@@ -29,7 +29,7 @@ void str_reverse(char *str, char *rev_str)
   rev_str[k]='\0';
 }
 
-void output(char *a, char *reverse_a)
+void output(char *a, char *rev_a)
 {
-  printf("The rev of %s is %s ", a, reverse_a);
+  printf("The rev of %s is %s ", a, rev_a);
 }
