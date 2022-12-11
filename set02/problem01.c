@@ -32,7 +32,7 @@ float dist(Point e, Point f)
 }
 void output(Point a, Point b, float distance)
 {
-  printf("The distance between Point %f,%f and Point %f ,%f is %f",a.x,a.y,b.x,b.y,distance);
+  printf("The distance between Point %f,%f and Point %f ,%f is %.1f",a.x,a.y,b.x,b.y,distance);
 }
 int main()
 {

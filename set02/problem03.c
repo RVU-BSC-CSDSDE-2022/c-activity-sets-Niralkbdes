@@ -8,7 +8,8 @@ struct camel
 typedef struct camel Camel;
 
 Camel input()
-{ Camel c;
+{
+  Camel c;
   printf("Enter the radius\n");
   scanf("%f",&c.radius);
 
@@ -34,7 +35,7 @@ void output(Camel c)
 int main()
   {
    Camel z;
-  z= input();
+  z = input();
   find_weight(&z);
   output(z);
   }
