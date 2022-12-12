@@ -39,7 +39,7 @@ int main()
   c = input_n();
   int a[c];
 	input(c,a);
-   average=odd_average(c,a);
+  average=odd_average(c,a);
 	output(average);
 	return 0;
 }

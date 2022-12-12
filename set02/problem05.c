@@ -13,7 +13,7 @@ float borga_X(int x)
 {
     float sum,term,p;
     int j,i,fact;
-    sum =0;
+    sum = 0;
     fact = 1, term = 1; 
     for (i=1;term>0.000001;i++)
     {
