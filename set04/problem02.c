@@ -28,7 +28,7 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
   scanf ("%f" ,y2);
   printf("Enter the x cordinates of the third point\n");
   scanf ("%f" ,x3);
-  printf("Enter the x cordinates of the third point\n");
+  printf("Enter the y cordinates of the third point\n");
   scanf ("%f" ,y3);
 }
 
