@@ -1,14 +1,14 @@
 #include <stdio.h>
 int input_n()
 {  int n;
-  printf("Enter array sizem:");
+  printf("Enter array size:");
   scanf("%d", &n);
     return n;
 }
 void input(int n, int a[n])
 {
   for(int i=0;i<n;i++)
-  { printf("Enter the elements 0f the array");
+  { printf("Enter the elements of the array");
     scanf("%d",&a[i]);
   }
 }
@@ -33,13 +33,12 @@ void output(float avg)
 }
 
 int main()
-{ int c;
- 
+{ int n;
   float average;
-  c = input_n();
-  int a[c];
-	input(c,a);
-  average=odd_average(c,a);
-	output(average);
-	return 0;
+  n = input_n();
+  int a[n];
+  input(n,a);
+  average=odd_average(n,a);
+  output(average);
+  return 0;
 }
