@@ -26,9 +26,9 @@ return weight;
 
 int main()
 {
-  int e,f,g,h;
-  input_camel_details( &e, &f ,&g);
-  h = find_weight(e,f,g);
-  printf("The weight of the camel is %f\n" ,h);
+  float radius, height, length, weight;
+  input_camel_details( &radius, & height ,&length);
+  weight = find_weight(radius, height, length);
+  printf("The weight of the camel is %f\n" , weight);
   return 0;
 }

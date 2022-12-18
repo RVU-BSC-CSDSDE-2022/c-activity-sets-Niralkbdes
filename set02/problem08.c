@@ -9,7 +9,7 @@ int input_n()
 {
   int n;
   printf("Enter the number of camels");
-  scanf("%d\n",&n);
+  scanf("%d",&n);
   return n;
 }
 Camel input_camel()

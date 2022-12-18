@@ -27,7 +27,6 @@ float dist(Point e, Point f)
   q=pow(res2,2);
   r=p+q;
   distance = sqrt(r);
-  
   return distance;
 }
 void output(Point a, Point b, float distance)
