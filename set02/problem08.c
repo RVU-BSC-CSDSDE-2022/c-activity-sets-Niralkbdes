@@ -27,7 +27,7 @@ Camel input_camel()
 void input(int n, Camel c[n], float *truck_weight)
 {
   for(int i=0;i<n;i++)
-  {c[i] = input_camel();}
+  c[i] = input_camel();
   printf("Enter truck weight\n");
   scanf("%f",truck_weight);
 }
@@ -56,7 +56,8 @@ void output(float total_weight)
   printf("Total weight of the truck with camels = %f",total_weight);
 }
 int main()
-{ float truck_weight, total_weight;
+{ 
+  float truck_weight, total_weight;
   int n = input_n();
   Camel c[n];
   input(n,c,&truck_weight);
