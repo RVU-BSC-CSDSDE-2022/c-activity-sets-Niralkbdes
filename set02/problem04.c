@@ -2,7 +2,7 @@
 
 void input_camel_details(float *radius, float *height, float *length)
 {
-    printf("Enter the Radius,Height and Length of the Camel");
+    printf("Enter the radius, height and length of the camel");
     scanf("%f %f %f",radius,height,length);
 }
 
@@ -25,7 +25,7 @@ void output(int mood)
     else if(mood==0)
     printf("The Camel is Happy");
     else if(mood==-1)
-    printf("The Camel is Tence");
+    printf("The Camel is Tense");
 }
 
 int main()
