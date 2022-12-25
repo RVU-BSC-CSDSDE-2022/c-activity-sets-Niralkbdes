@@ -8,15 +8,14 @@ int input_array_size()
 }
 void input_array( int n, int a[n])
 {
-  int i;
   printf("Enter the elements of the array:");
-  for ( i= 0; i<n ; i++)
+  for (int i= 0; i<n ; i++)
   scanf("%d", &a[i]);
   }
 int sum_n_array(int n,int a[n])
 {
-  int i, sum=0;
-  for ( i= 0; i<n ; i++)
+  int sum=0;
+  for ( int i= 0; i<n ; i++)
   sum = sum+a[i];
   return sum;
 }
@@ -26,9 +25,9 @@ void output(int n,int a[n], int sum)
 }
 int main()
 {
-  int k, a[20], p,i;
-  k=input_array_size();
-  input_array(k,a);
-  p=sum_n_array(k,a);
-  output (k,a,p);
+  int n, a[20], p,i;
+  n=input_array_size();
+  input_array(n,a);
+  p=sum_n_array(n,a);
+  output (n,a,p);
 }
