@@ -30,7 +30,7 @@ Complex add (Complex a, Complex b)
   c.imaginary= a.imaginary + b.imaginary;
   return c;
 }
-complex add_n_complex(int n, Complex c[n])
+Complex add_n_complex(int n, Complex c[n])
 {
   Complex sum = {0,0};
   for (int i=0; i<n; i++)
