@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int input();
 int find_fibo(int n);

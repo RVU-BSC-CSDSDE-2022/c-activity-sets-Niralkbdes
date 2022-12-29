@@ -34,7 +34,6 @@ void output(char *string1, char *string2, int result)
    printf("%s is greater to %s\n",string2,string1);
  else if(result=1)
  printf("%s is equal than %s\n",string1,string2);
- 
  else
    printf("%s is lesser than %s\n",string2,string1);
 }

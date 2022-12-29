@@ -53,6 +53,6 @@ int n = get_n();
 Complex c[n];
 input_n_complex (n, c);
 Complex sum = add_n_complex(n,c);
-output (n,c, sum);
+output (n,c,sum);
 return 0;
 }

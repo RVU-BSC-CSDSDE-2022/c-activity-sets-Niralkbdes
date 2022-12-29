@@ -47,7 +47,7 @@ Line  input_line(int n)
   printf("Enter the x and y coordinates of %d point\n", n);
   scanf("%f%f", &l.p.start_end_x, &l.p.start_end_y);
   return l;
-}
+} 
 void input_n_lines(int n, Line *l)
 {
   for(int i=0;i<n;i++)
